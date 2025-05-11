@@ -2,7 +2,7 @@
 
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი Bootstrap პროექტები
 
-- [სახელი გვარი | პროექტი](/მისამართი)
+- [Luka Shvelidze | Homework_3](Chapter03_Bootstrap/Projects/Luka Shvelidze/Homework_3)
 
 ### 2025 ზაფხული
 
