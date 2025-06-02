@@ -12,8 +12,13 @@ def about():
 
 @app.route('/order')
 def info():
-    message = "Order N1"
-    return render_template('order.html', message=message)
+    orders = [
+        {'id': 1, 'name': 'order A', 'status': 'Processing'},
+        {'id': 2, 'name': 'order B', 'status': 'Shipped'},
+        {'id': 3, 'name': 'order C', 'status': 'Delivered'},
+    ]
+    return render_template('order.html', message="Your Orders", orders=orders)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
